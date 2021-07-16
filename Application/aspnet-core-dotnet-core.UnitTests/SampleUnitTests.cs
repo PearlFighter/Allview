@@ -11,7 +11,8 @@ namespace aspnet_core_dotnet_core.UnitTests
         public void IndexPageTest()
         {
             IndexModel model = new IndexModel();
-            Assert.AreEqual("Index", actual: model.DoTest());
+            //Assert.AreEqual("Index", actual: model.DoTest());
+            Assert.AreEqual(true, false);
         }
 
     }
